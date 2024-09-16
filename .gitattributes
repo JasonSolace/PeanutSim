@@ -1,0 +1,13 @@
+# Set default behavior to automatically normalize line endings.
+* text=auto
+
+# Explicitly set line endings for script files
+*.cs text eol=lf
+*.sh text eol=lf
+*.bat text eol=crlf
+
+# Unity specific files
+*.unity text eol=lf
+*.meta text eol=lf
+*.mat text eol=lf
+*.shader text eol=lf
